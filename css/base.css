@@ -6,53 +6,10 @@
 
 .hcw-painel {
     padding: 16px 16px;
+    margin: 1em;
 }
 
-.hcw-row {
-    display: flex;
-    flex-direction: row;
-    
-    justify-content: center;
-    align-content: center;
-    
-}
 
-.hcw-column-1 {
-    flex-grow: 1;
-}
-.hcw-column-2 {
-    flex-grow: 2;
-}
-.hcw-column-3 {
-    flex-grow: 3;
-}
-.hcw-column-4 {
-    flex-grow: 4;
-}
-.hcw-column-5 {
-    flex-grow: 5;
-}
-.hcw-column-6 {
-    flex-grow: 6;
-}
-.hcw-column-7 {
-    flex-grow: 7;
-}
-.hcw-column-8 {
-    flex-grow: 8;
-}
-.hcw-column-9 {
-    flex-grow: 9;
-}
-.hcw-column-10 {
-    flex-grow: 10;
-}
-.hcw-column-11 {
-    flex-grow: 11;
-}
-.hcw-column-12 {
-    flex-grow: 12;
-}
 
 code { padding: 5px; border-radius: 7px; }
 .hcw-border-radius { border-radius: 7px; }
@@ -80,3 +37,14 @@ nav ul li a {
     
 }
 
+
+.hcw-card-1         { box-shadow: 1px 5px 5px 1px #000; margin: 1em; }
+.hcw-card-1 a       { text-decoration: none; }
+.hcw-card-1:hover   {  }
+.hcw-card-title     { padding: 5px; text-align: center; font-size: 20px; font-weight: bold;  }
+.hcw-card-image     { padding: 5px; text-align: center; }
+.hcw-card-image img { width: 50%; height: 50%; }
+.hcw-card-footer    { padding: 16px; }
+
+.hcw-row-flex { display: flex; flex-wrap: wrap; justify-content: space-around; }
+.hcw-column-flex { width: 40vh; }
