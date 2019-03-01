@@ -17,5 +17,7 @@ $(document).ready(
             function(){ $(this).css("color", cortexto); }
          )
          .css("color", cortexto);
+
+        
    }
 );
