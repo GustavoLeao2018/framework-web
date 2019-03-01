@@ -51,3 +51,19 @@ header nav ul li a {
     text-decoration: none; /* Tira a decoração de cada item */
 }
 
+/* Menu para telas até 800px */
+@media all and (min-width: 800px){
+    header nav ul {
+        flex-grow: 1; /* Define que o item crescerá em relação aos outros itens */
+        justify-content: space-between; /* Distribui uniformemente na linha os itens */
+    }
+}
+
+/* Menu para telas até 600px */
+@media all and (min-width: 600px){
+    header nav ul {
+        flex-direction: column; /* inverte de linha para coluna o sentido */
+        align-items: center; /* Alinha os itens ao centro: */
+        width:  100%; /* Ocupa 100% da tela */
+    }
+}
