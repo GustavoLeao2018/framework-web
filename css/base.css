@@ -14,28 +14,7 @@ hr { border: 1px solid black; }
 code { padding: 5px; border-radius: 7px; }
 .hcw-border-radius { border-radius: 7px; }
 
-nav {
-    display: flex;
-    justify-content: flex-start;
-    padding: 1em;
-    
-    
-}
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li a {
-    position: relative;
-    text-decoration: none;  
-    display: inline-block;
-    padding: 1em;
-    
-}
 
 
 .hcw-card-1         { box-shadow: 1px 5px 5px 1px #000; margin: 1em; }
@@ -48,3 +27,27 @@ nav ul li a {
 
 .hcw-row-flex { display: flex; flex-wrap: wrap; justify-content: space-around; }
 .hcw-column-flex { width: 40vh; }
+
+
+/* Menu dentro do cabeçalho */
+header nav {
+    display: flex; /* Define como  flex o display do menu */
+    justify-content: flex-start; /* Define como os itens alinhados à esquerda */
+    padding: 1em; /* Da um espaçamento de 1em para a barra de menu */
+}
+
+
+header nav ul {
+    list-style: none; /* Tira o estilo de lista para os itens */
+    margin: 0; /* Tira toda a margem da lista. */
+    padding: 0; /* Tira todo o espaçamento para dentro. */
+    display: flex; /* Define como  flex o display da lista */
+}
+
+header nav ul li a {
+    position: relative; /* Define como uma posição relativa para cada link */
+    display: inline-block; /* Define como inline-bloc o display de cada link */
+    padding: 1em; /* Da um espaçamento de 1em para cada link */
+    text-decoration: none; /* Tira a decoração de cada item */
+}
+
