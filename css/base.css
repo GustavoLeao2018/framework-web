@@ -10,7 +10,7 @@
 }
 
 
-
+hr { border: 1px solid black; }
 code { padding: 5px; border-radius: 7px; }
 .hcw-border-radius { border-radius: 7px; }
 
