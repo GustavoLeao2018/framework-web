@@ -1,20 +1,41 @@
-.hcw-text-center { text-align: center; }
-.hcw-text-left { text-align: left; }
-.hcw-text-justify { text-align: justify; }
-.hcw-text-right { text-align: right; }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+* {
+    margin: 0;
+    padding: 0;
 
-.hcw-painel {
-    padding: 16px 16px;
-    margin: 1em;
+    font-size: 15px;
+
+    font-family: 'Roboto', sans-serif;
 }
 
+.hcw-container { padding-left: 16px; padding-right:  16px; }
+.hcw-painel    { margin-top:  16px;  margin-bottom: 16px; }
 
+
+code { padding-left: 4px; padding-right: 4px;  }
 hr { border: 1px solid black; }
-code { padding: 5px; border-radius: 7px; }
-.hcw-border-radius { border-radius: 7px; }
 
+h1 { font-size: 64px; }
+h2 { font-size: 48px; }
+h3 { font-size: 36px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
 
+.hcw-text-center  { text-align: center;  }
+.hcw-text-left    { text-align: left;    }
+.hcw-text-right   { text-align: right;   }
+.hcw-text-justify { text-align: justify; }
+
+.hcw-tiny     { background-color: 10px; }
+.hcw-small    { background-color: 12px; }
+.hcw-medium   { background-color: 15px; }
+.hcw-large    { background-color: 18px; }
+.hcw-xlarge   { background-color: 24px; }
+.hcw-xxlarge  { background-color: 36px; }
+.hcw-xxxlarge { background-color: 48px; }
+.hcw-jumbo    { background-color: 64px; }
 
 
 .hcw-card-1         { box-shadow: 1px 5px 5px 1px #000; margin: 1em; }
@@ -67,5 +88,3 @@ header nav ul li a {
         width:  100%; /* Ocupa 100% da tela */
     }
 }
-
-

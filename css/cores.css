@@ -1,67 +1,95 @@
-/* Cor de fundo */
-.hcw-amber       { background-color: #FF5722; color: #000;  } 
-.hcw-aqua        { background-color: #00FFFF; color: #000;  }
-.hcw-brown       { background-color: #795548; color: #fff;  }
-.hcw-yellow      { background-color: #FFEB3B; color: #000;  }
-.hcw-sand        { background-color: #FDF5E6; color: #000;  }
-.hcw-teal        { background-color: #009688; color: #fff;  }
-.hcw-red         { background-color: #F44336; color: #fff;  }
-.hcw-pink        { background-color: #E91E63; color: #fff;  }
-.hcw-cyan        { background-color: #00BCD4; color: #000;  }
-.hcw-indigo      { background-color: #3F51B5; color: #fff;  }
-.hcw-khaki       { background-color: #F0E68C; color: #000;  }
-.hcw-lime        { background-color: #CDDC39; color: #000;  }
-.hcw-green       { background-color: #4CAF50; color: #fff;  }
-.hcw-light-green { background-color: #8BC34A; color: #000;  }
-.hcw-gray        { background-color: #9E9E9E; color: #000;  }
-.hcw-dark-gray   { background-color: #616161; color: #fff;  }
-.hcw-light-gray  { background-color: #F1F1F1; color: #000;  }
-.hcw-orange      { background-color: #FF9800; color: #000;  }
-.hcw-deep-orange { background-color: #FF5722; color: #fff;  }
-.hcw-purple      { background-color: #9C27B0; color: #fff;  }
-.hcw-deep-purple { background-color: #673AB7; color: #fff;  }
-.hcw-pale-blue   { background-color: #DDFFFF; color: #000;  }
-.hcw-pale-green  { background-color: #DDFFDD; color: #000;  }
-.hcw-pale-red    { background-color: #FFDDDD; color: #000;  }
-.hcw-pale-yellow { background-color: #FFFFCC; color: #000;  }
-.hcw-blue        { background-color: #2196F3; color: #fff;  }
-.hcw-blue-gray   { background-color: #607D8B; color: #fff;  }
-.hcw-light-blue  { background-color: #DDFFFF; color: #000;  }
-.hcw-white       { background-color: #fff; color: #000;  }
-.hcw-black       { background-color: #000; color: #fff;  }
+.hcw-background-amber       { color: #000; background-color:#ffc107; }
+.hcw-background-aqua        { color: #000; background-color:#00ffff; }
+.hcw-background-blue        { color: #fff; background-color:#2196F3; }
+.hcw-background-light-blue  { color: #000; background-color:#87CEEB; }
+.hcw-background-brown       { color: #fff; background-color:#795548; }
+.hcw-background-cyan        { color: #000; background-color:#00bcd4; }
+.hcw-background-blue-grey   { color: #fff; background-color:#607d8b; }
+.hcw-background-green       { color: #fff; background-color:#4CAF50; }
+.hcw-background-light-green { color: #000; background-color:#8bc34a; }
+.hcw-background-indigo      { color: #fff; background-color:#3f51b5; }
+.hcw-background-khaki       { color: #000; background-color:#f0e68c; }
+.hcw-background-lime        { color: #000; background-color:#cddc39; }
+.hcw-background-orange      { color: #000; background-color:#ff9800; }
+.hcw-background-deep-orange { color: #fff; background-color:#ff5722; }
+.hcw-background-pink        { color: #fff; background-color:#e91e63; }
+.hcw-background-purple      { color: #fff; background-color:#9c27b0; }
+.hcw-background-deep-purple { color: #fff; background-color:#673ab7; }
+.hcw-background-red         { color: #fff; background-color:#f44336; }
+.hcw-background-sand        { color: #000; background-color:#fdf5e6; }
+.hcw-background-teal        { color: #fff; background-color:#009688; }
+.hcw-background-yellow      { color: #000; background-color:#ffeb3b; }
+.hcw-background-white       { color: #000; background-color:#fff;    }
+.hcw-background-black       { color: #fff; background-color:#000;    }
+.hcw-background-grey        { color: #000; background-color:#9e9e9e; }
+.hcw-background-light-grey  { color: #000; background-color:#f1f1f1; }
+.hcw-background-dark-grey   { color: #fff; background-color:#616161; }
+.hcw-background-pale-red    { color: #000; background-color:#ffdddd; }
+.hcw-background-pale-green  { color: #000; background-color:#ddffdd; }
+.hcw-background-pale-yellow { color: #000; background-color:#ffffcc; }
+.hcw-background-pale-blue   { color: #000; background-color:#ddffff; }
 
+.hcw-text-amber       { color:#ffc107; }
+.hcw-text-aqua        { color:#00ffff; }
+.hcw-text-blue        { color:#2196F3; }
+.hcw-text-light-blue  { color:#87CEEB; }
+.hcw-text-brown       { color:#795548; }
+.hcw-text-cyan        { color:#00bcd4; }
+.hcw-text-blue-grey   { color:#607d8b; }
+.hcw-text-green       { color:#4CAF50; }
+.hcw-text-light-green { color:#8bc34a; }
+.hcw-text-indigo      { color:#3f51b5; }
+.hcw-text-khaki       { color:#f0e68c; }
+.hcw-text-lime        { color:#cddc39; }
+.hcw-text-orange      { color:#ff9800; }
+.hcw-text-deep-orange { color:#ff5722; }
+.hcw-text-pink        { color:#e91e63; }
+.hcw-text-purple      { color:#9c27b0; }
+.hcw-text-deep-purple { color:#673ab7; }
+.hcw-text-red         { color:#f44336; }
+.hcw-text-sand        { color:#fdf5e6; }
+.hcw-text-teal        { color:#009688; }
+.hcw-text-yellow      { color:#ffeb3b; }
+.hcw-text-white       { color:#fff;    }
+.hcw-text-black       { color:#000;    }
+.hcw-text-grey        { color:#9e9e9e; }
+.hcw-text-light-grey  { color:#f1f1f1; }
+.hcw-text-dark-grey   { color:#616161; }
+.hcw-text-pale-red    { color:#ffdddd; }
+.hcw-text-pale-green  { color:#ddffdd; }
+.hcw-text-pale-yellow { color:#ffffcc; }
+.hcw-text-pale-blue   { color:#ddffff; }
 
-.hcw-text-amber       { color: #FF5722;   } 
-.hcw-text-aqua        { color: #00FFFF;   }
-.hcw-text-brown       { color: #795548;   }
-.hcw-text-yellow      { color: #FFEB3B;   }
-.hcw-text-sand        { color: #FDF5E6;   }
-.hcw-text-teal        { color: #009688;   }
-.hcw-text-red         { color: #F44336;   }
-.hcw-text-pink        { color: #E91E63;   }
-.hcw-text-cyan        { color: #00BCD4;   }
-.hcw-text-indigo      { color: #3F51B5;   }
-.hcw-text-khaki       { color: #F0E68C;   }
-.hcw-text-lime        { color: #CDDC39;   }
-.hcw-text-green       { color: #4CAF50;   }
-.hcw-text-light-green { color: #8BC34A;   }
-.hcw-text-gray        { color: #9E9E9E;   }
-.hcw-text-dark-gray   { color: #616161;   }
-.hcw-text-light-gray  { color: #F1F1F1;   }
-.hcw-text-orange      { color: #FF9800;   }
-.hcw-text-deep-orange { color: #FF5722;   }
-.hcw-text-purple      { color: #9C27B0;   }
-.hcw-text-deep-purple { color: #673AB7;   }
-.hcw-text-pale-blue   { color: #DDFFFF;   }
-.hcw-text-pale-green  { color: #DDFFDD;   }
-.hcw-text-pale-red    { color: #FFDDDD;   }
-.hcw-text-pale-yellow { color: #FFFFCC;   }
-.hcw-text-blue        { color: #2196F3;   }
-.hcw-text-blue-gray   { color: #fff;      }
-.hcw-text-light-blue  { color: #DDFFFF;   }
-.hcw-text-white       { color: #fff;      }
-.hcw-text-black       { color: #000;      }
+.hcw-border-amber       { border-color:#ffc107; }
+.hcw-border-aqua        { border-color:#00ffff; }
+.hcw-border-blue        { border-color:#2196F3; }
+.hcw-border-light-blue  { border-color:#87CEEB; }
+.hcw-border-brown       { border-color:#795548; }
+.hcw-border-cyan        { border-color:#00bcd4; }
+.hcw-border-blue-grey   { border-color:#607d8b; }
+.hcw-border-green       { border-color:#4CAF50; }
+.hcw-border-light-green { border-color:#8bc34a; }
+.hcw-border-indigo      { border-color:#3f51b5; }
+.hcw-border-khaki       { border-color:#f0e68c; }
+.hcw-border-lime        { border-color:#cddc39; }
+.hcw-border-orange      { border-color:#ff9800; }
+.hcw-border-deep-orange { border-color:#ff5722; }
+.hcw-border-pink        { border-color:#e91e63; }
+.hcw-border-purple      { border-color:#9c27b0; }
+.hcw-border-deep-purple { border-color:#673ab7; }
+.hcw-border-red         { border-color:#f44336; }
+.hcw-border-sand        { border-color:#fdf5e6; }
+.hcw-border-teal        { border-color:#009688; }
+.hcw-border-yellow      { border-color:#ffeb3b; }
+.hcw-border-white       { border-color:#fff;    }
+.hcw-border-black       { border-color:#000;    }
+.hcw-border-grey        { border-color:#9e9e9e; }
+.hcw-border-light-grey  { border-color:#f1f1f1; }
+.hcw-border-dark-grey   { border-color:#616161; }
+.hcw-border-pale-red    { border-color:#ffdddd; }
+.hcw-border-pale-green  { border-color:#ddffdd; }
+.hcw-border-pale-yellow { border-color:#ffffcc; }
+.hcw-border-pale-blue   { border-color:#ddffff; }
 
-
+code { color: crimson; background-color: #f1f1ff; }
 hr { color: #000; }
-code     { background-color: #fff; color: #F44336; }
